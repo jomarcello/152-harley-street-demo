@@ -42,14 +42,9 @@ export interface PracticeConfig {
 export const practiceConfigs: Record<string, PracticeConfig> = {
   '152-harley-street': {
     id: '152-harley-street',
-    name: '152 Harley Street
-London’s premier private day clinic where excellence is standard',
+    name: '152 Harley Street',
     doctor: 'ABOUT US',
-    location: '152 Harley Street,
-London
-W1G 7LH
-
-(Reception is on the 3rd floor)',
+    location: '152 Harley Street, London W1G 7LH',
     agentId: 'agent_01k0a57qgte4k8yrmt4tbm9s60',
     type: 'general' as const,
     port: 3000,
@@ -57,19 +52,12 @@ W1G 7LH
     
     chat: {
       assistantName: 'Robin',
-      initialMessage: 'Thank you for contacting 152 Harley Street
-London’s premier private day clinic where excellence is standard! I\'m Robin, your general assistant. How can I help you today?',
-      systemPrompt: `You are Robin, the scheduling assistant at 152 Harley Street
-London’s premier private day clinic where excellence is standard in 152 Harley Street,
-London
-W1G 7LH
-
-(Reception is on the 3rd floor). Help patients book appointments.`
+      initialMessage: 'Thank you for contacting 152 Harley Street! I\'m Robin, your general assistant. How can I help you today?',
+      systemPrompt: `You are Robin, the scheduling assistant at 152 Harley Street in London. Help patients book appointments.`
     },
     
     voice: {
-      firstMessage: 'Thank you for calling 152 Harley Street
-London’s premier private day clinic where excellence is standard! This is Robin. How can I assist you today?'
+      firstMessage: 'Thank you for calling 152 Harley Street! This is Robin. How can I assist you today?'
     },
     
     services: [
